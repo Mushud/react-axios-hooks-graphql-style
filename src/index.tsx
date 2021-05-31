@@ -1,10 +1,10 @@
-import * as React from 'react'
-import styles from './styles.module.css'
 
-interface Props {
-  text: string
-}
+import useGet from "./Requests/useGet"
+import useLazyGet from "./Requests/useLazyGet"
+import usePost from './Requests/usePost'
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export {
+  useGet,
+  useLazyGet,
+  usePost
 }
