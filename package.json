@@ -1,10 +1,10 @@
 {
   "name": "react-axios-hooks-graphql-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for axios to behave as graphql request",
   "author": "Mushud",
   "license": "MIT",
-  "repository": "Mushud/react-axios-hooks-graphql-style",
+  "repository": "https://github.com/Mushud/react-axios-hooks-graphql-style",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
